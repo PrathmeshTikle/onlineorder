@@ -1,0 +1,221 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+  }
+  ul{
+    display: flex; 
+    list-style: none;
+    ;}
+  
+    .navbar{
+      display: flex;
+      align-items: center;
+      position: relative;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+      }
+      .navbar::before{
+        content: "";
+        background-color: black;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index:-1 ;
+        opacity: 0.65;
+        
+      }
+      .navbar ul li a {
+        display: block;
+        padding: 3px 22px;
+        text-decoration: none;
+        border-radius: 20px;
+        color: white;
+        font-family: serif;
+        font-weight: bold;
+      }
+      .navbar ul li a:hover{
+        display: block;
+        text-decoration: none;
+        border-radius: 15px;
+        background-color: white;
+        color: black;
+  
+      }
+    li{
+      font-size: 1.3rems;
+    }
+  
+    .home{
+      display: flex;
+      text-align: center;
+      align-items: center;
+      padding: 3px 22px;
+      background-image:  url(https://cdn.pixabay.com/photo/2014/06/11/17/00/food-366875__340.jpg);
+      background-size: 1400px 350px;
+      height: 350px;
+      width: 1500px;
+      color: white;
+      position: relative;
+     }
+     .btn{
+       padding: 10px;
+       background-color: white;
+       cursor: pointer;
+       border-radius: 10px;
+       margin-top: 40px;
+       font-weight: bold;
+     }
+     .primary{
+        font-family: cursive;
+        align-items: center;
+        margin-top: 30px;
+      
+     }
+     p{
+       font-size: 15px;
+       padding: 3px ,22px;
+     }
+     .td1{
+       border: 3px solid blue;
+       height: 300px;
+       width: 400px;
+       padding: 10px;
+       border-radius: 50px;
+      background-color: rgb(191, 212, 252);
+      text-align: center; justify-content: center;
+   box-shadow: 2px 4px 7px blue;
+      }.td1:hover{
+        transform: rotate(360deg);
+        transition: all 2s ease-in-out;
+        
+      }
+      .section2{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: -10px;
+        display: flex;
+    
+      }
+  .section2   h2{
+      font-size: .8cm;
+      padding: 15px;
+     text-shadow: 2px -2px 6px yellow;
+      display: flex;
+      flex-wrap: wrap;
+
+      }
+    .td1{
+      height: 300px;
+      width: 400px;
+      border: 2px solid orange;
+    
+    }
+    
+  .img1{
+  height: 200px;
+  width: 300px;
+  display: block;
+  text-align: center;
+  justify-content: center;
+  margin-left: 40px;
+  }
+  .section3{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        }
+        .section3 h2{
+          margin-top: -10px;
+          text-shadow: 2px 3px 4px rgb(162, 248, 64);
+          font-size: .8cm;
+  }
+  .img2{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  box-shadow:2px 4px 5px deeppink;
+  background: black;
+  transition: all 2s ease-in-out;
+  }.img2:hover{
+  transform: skew(25deg);
+  }
+  
+  .table2{
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+   margin-left: 400px;
+  margin-right: auto;
+  margin-top: -80px;
+  }
+  .bg2{
+  background-image: url(https://thumbs.dreamstime.com/b/collection-take-away-foil-boxes-healthy-food-set-containers-meals-top-view-free-copy-space-164637874.jpg);
+  background-size: 1500px;
+  margin-top: 80px;
+  opacity: .7;
+  display: flex;
+  position: relative;
+  }
+  .section4 h2{
+   text-align: center;
+       align-items: center;
+       text-shadow: 2px -4px 5px tomato;
+       margin-top: 20px;
+  }
+  .bg3{
+   background-image: url(https://media.istockphoto.com/photos/contact-us-concept-with-wood-block-and-symbols-picture-id1170264057?k=6&m=1170264057&s=612x612&w=0&h=KuUJgfB8KyuB-Ag58ym6RQ83yJIOQF67a5E3zpkNEGM=);
+   background-size: 1500px 400px;
+  position: relative;
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 40px;
+   }
+  .bg3 input{
+    height: 25px;
+    width: 330px;
+   padding: 6px;
+   border-radius: 14px;
+   font-weight: bolder;
+    }input:hover{
+      background-color: rgb(192, 181, 181);
+    }
+    input[type=submit]{
+      border-radius: 10px;
+      height:30px ;
+      width:70px ;
+    background:green;
+    padding: 10px;
+    } input[type=submit]:hover{
+     background-color: greenyellow;
+    }
+    .section5 h2{
+      text-align: center;
+       align-items: center;
+       text-shadow: 3px 4px 3px blue;
+       margin-top: 20px;
+  
+    }
+    .img3{
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      box-shadow: 3px -4px 3px yellow;
+       margin-left: 100px;
+     background-color: black;
+    }
+    .div4{
+      width: 1500px ;
+      height: 260px;
+      background-color: black;
+    }
+  
+  
+    

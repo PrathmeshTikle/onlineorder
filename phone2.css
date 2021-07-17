@@ -1,0 +1,13 @@
+#container2{
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+#container3{
+  overflow: hidden;
+  
+}
+img
+#navbar{
+  flex-wrap: wrap;
+}
